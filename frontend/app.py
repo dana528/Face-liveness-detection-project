@@ -45,9 +45,9 @@ def check_video_page():
 
         # start processing button
         if st.button("Start Detection"): 
-            #result = process_video(video_file)
+            result = process_video(video_file)
             st.write("Video processed successfully!")
-            #st.write("Final prediction:", result)
+            st.write("Final prediction:", result)
             
 
 
